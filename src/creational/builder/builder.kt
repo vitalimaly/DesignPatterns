@@ -29,17 +29,17 @@ class Director {
 }
 
 class Car(
-    var seats: Int = 5,
-    var engine: String = "V4",
-    var hasTripComputer: Boolean = false,
-    var hasGps: Boolean = false
+        var seats: Int = 5,
+        var engine: String = "V4",
+        var hasTripComputer: Boolean = false,
+        var hasGps: Boolean = false
 )
 
 class Manual(
-    var seats: Int = 5,
-    var engine: String = "V4",
-    var hasTripComputer: Boolean = false,
-    var hasGps: Boolean = false
+        var seats: Int = 5,
+        var engine: String = "V4",
+        var hasTripComputer: Boolean = false,
+        var hasGps: Boolean = false
 )
 
 interface Builder {

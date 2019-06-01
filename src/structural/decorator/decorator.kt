@@ -2,9 +2,9 @@ package structural.decorator
 
 fun main() {
     val encoded = CompressionDecorator(
-        EncryptionDecorator(
-            FileDataSource("readme.txt")
-        ))
+            EncryptionDecorator(
+                    FileDataSource("readme.txt")
+            ))
     encoded.writeData("Hello world!")
     println("encoded ${encoded.readData()}")
 }

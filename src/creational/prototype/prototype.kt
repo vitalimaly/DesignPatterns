@@ -32,9 +32,9 @@ class App {
 }
 
 abstract class Shape(
-    var x: Int = 0,
-    var y: Int = 0,
-    var color: String = "white"
+        var x: Int = 0,
+        var y: Int = 0,
+        var color: String = "white"
 ) {
     constructor(source: Shape) : this(source.x, source.y, source.color)
 

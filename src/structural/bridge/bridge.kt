@@ -17,15 +17,19 @@ open class Remote(val device: Device) {
         if (device.isEnabled()) device.disable()
         else device.enable()
     }
+
     fun volumeDown() {
         device.setVolume(device.getVolume() - 10)
     }
+
     fun volumeUp() {
         device.setVolume(device.getVolume() + 10)
     }
+
     fun channelDown() {
         device.setChannel(device.getChannel() - 1)
     }
+
     fun channelUp() {
         device.setChannel(device.getChannel() + 1)
     }

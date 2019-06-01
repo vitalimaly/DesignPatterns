@@ -4,9 +4,9 @@ fun main() {
     val imageEditor = ImageEditor()
     imageEditor.load()
     imageEditor.groupSelected(listOf(
-        Dot(3, 3),
-        Dot(5, 5),
-        Circle(3, 3, 3)))
+            Dot(3, 3),
+            Dot(5, 5),
+            Circle(3, 3, 3)))
 }
 
 class ImageEditor {
